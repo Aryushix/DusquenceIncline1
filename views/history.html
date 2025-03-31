@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Duquense Incline</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official website for the Duquesne Incline" >
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="../index.html" class="quarter-img-link">
+                  <img src="../static/photos/DuqInclineLogo (1).png" 
+                       alt="Duquesne Incline Logo" 
+                       class="quarter-sized-img">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="./visit.html">Plan Your Visit</a></li>
+                <li><a href="./history.html">History</a></li>
+                <li><a href="./events.html">Events</a></li>
+                <li><a href="./tickets.html">Tickets</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+      
+        <section class="hero">
+            <h1>Welcome to the Duquesne Incline</h1>
+            <p> Take a step back in time on a century-old cable car and see the best views of downtown Pittsburgh while riding one of the few remaining inclines in the country. Opened on May 20, 1877, the Duquesne Incline was rescued and restored by a group of local residents in 1963 and still delights residents and visitors with its original, elegant, wooden cable cars. Now you can visit the interior of the incline and watch the machinery while it operates. The Duquesne Incline's upper station houses a museum of Pittsburgh history, including photos and a storehouse of information on inclines from around the world. Unusual Pittsburgh souvenirs, maps and photos can be found at the gift shop.
+            </p>
+            <br><br>
+            <a href="./tickets.html" class="cta-button">Book Tickets</a>
+        </section>
+        <br>
+
+        <div class="slideshow-container">
+     
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="../static/photos/download.jpg" style="width:100%">
+                <div class="text">Photo Courtesy of Station Square</div>
+            </div>
+     
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="../static/photos/download (2).jpg" style="width:100%">
+                <div class="text">Photo Courtesy of Dustin McGrew Photography</div>
+            </div>
+      
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="../static/photos/download (1).jpg" style="width:100%">
+                <div class="text">Photo Courtesy of Visit Pittsburgh</div>
+            </div>
+        
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        
+        <br>
+        
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <section class="highlights">
+            <h2>History "We got History"</h2>
+            <div class="highlight-cards">
+                <div class="card">
+    
+                    <h3>Early History</h3>
+                    <p>The Duquesne Incline is one of those which follows very closely the tracks of an early coal hoist. Old newspapers indicate the existence of such a conveyance as early as 1854. Residents apparently referred to it as "Kirk Lewis' incline" and located it on the present site of The Duquesne Incline's Upper Station. Grandview Avenue was then the High Street, and the area was just beginning to be converted from farmland to homesites. This pleasantly-situated acreage was an excellent area to absorb some of the expanding population of the city, but the problem of easy access was still to be solved.
+                        Although plans for a freight and passenger incline are known to have existed much earlier, financial backing was exceedingly hard to find--even the modest sum of $47,000--and actual construction was delayed. Eventually, of course, difficulties were overcome and the Incline was built. It was opened to the public May 20, 1877. The Duquesne Incline was the first Pittsburgh incline designed and built by Samuel Diescher, for Kirk Bigham and Associates. Mr. Diescher, an engineer, had become the country's foremost builder of inclines. He was also to design and build most of those that followed.
+                        
+                        At the time of its public opening, it was one of four inclined planes serving the summit of Coal Hill, which later came to be known as Mount Washington. The Duquesne Incline was operated, from 1877 until 1962 by The Duquesne Inclined Plane Company. From 1964 until the present, the Incline has been operated by the Society for the Preservation of The Duquesne Heights Incline; it has been owned by the Port Authority of Allegheny County.
+                        </p>
+                </div>
+            
+                <div class="card">
+
+                    <h3>Society of Preservation</h3>
+                    <p>
+                        The Society for the Preservation of the Duquesne Heights Incline was formed in 1964 by the Duquesne Heights/Mount Washington neighborhood group that had rescued, repaired, and reopened the Incline in 1963. The purpose was to continue to restore and rehabilitate the cars, equipment, and both stations, and to establish the entire operation as a reliable commuter facility and a popular visitor attraction.  Memberships in the society are available, call for details.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Fun Facts</h3>
+                        <div id="funFactBox" class="card">
+                            <p>Click the button to see a fun fact!</p>
+                        <button class="fun-fact-button">Get Fun Fact</button>
+                            <p id="funFactDisplay"></p>  <!-- This is where the fact will be displayed -->
+
+                    </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Designed by Brian Woo. all rights reserved</p>
+        <ul class="footer-links">
+            
+            <li><a href="https://www.facebook.com/TheDuquesneIncline/photos/">Facebook</a></li>
+            <li><a href = "https://www.visitpittsburgh.com/directory/duquesne-incline/"> VisitPittsburgh</a></li>
+            <li><a href="./mailingList.html">Join Mailing List</a></li>
+        </ul>
+        <ul class = "footer-links">
+            <li>
+                <div class="logo">
+                    <a href="https://www.instagram.com/explore/locations/289145085/duquesne-incline-pittsburgh/?hl=en" class="quarter-img-link">
+                      <img src="../static/photos/instagram-logo_1199-122.avif" 
+                           alt="Duquesne Incline Logo" 
+                           class="quarter-sized-img">
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </footer>
+    <script src="../script.js" ></script>
+</body>
+</html>

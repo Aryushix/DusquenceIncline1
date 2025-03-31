@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Duquense Incline</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official website for the Duquesne Incline" >
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="../index.html" class="quarter-img-link">
+                    <img src="./static/photos/DuqInclineLogo (1).png" 
+                         alt="Duquesne Incline Logo" 
+                         class="quarter-sized-img">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="./views/visit.html">Plan Your Visit</a></li>
+                <li><a href="./views/history.html">History</a></li>
+                <li><a href="./views/events.html">Events</a></li>
+                <li><a href="./views/tickets.html">Tickets</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to the Duquesne Incline</h1>
+            <p>Take a step back in time on a century-old cable car and see the best views of downtown Pittsburgh while riding one of the few remaining inclines in the country. Opened on May 20, 1877, the Duquesne Incline was rescued and restored by a group of local residents in 1963 and still delights residents and visitors with its original, elegant, wooden cable cars. Now you can visit the interior of the incline and watch the machinery while it operates. The Duquesne Incline's upper station houses a museum of Pittsburgh history, including photos and a storehouse of information on inclines from around the world. Unusual Pittsburgh souvenirs, maps and photos can be found at the gift shop</p>
+            <br><br>
+            <a href="../views/tickets.html" class="cta-button">Book Tickets</a>
+        </section>
+        <br>
+        <div class="slideshow-container">
+  
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="../static/photos/download.jpg" style="width:100%">
+                <div class="text">Photo Courtesy of Station Square</div>
+            </div>
+     
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="../static/photos/download (2).jpg" style="width:100%">
+                <div class="text">Photo Courtesy of Dustin McGrew Photography</div>
+            </div>
+      
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="../static/photos/download (1).jpg" style="width:100%">
+                <div class="text">Photo Courtesy of Visit Pittsburgh</div>
+            </div>
+     
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        
+        <br>
+     
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <section class="highlights">
+            <h2>Highlights</h2>
+            <div class="card">
+                <img src="./static/photos/download (1).jpg" alt="Tours">
+                <h3>Visitor Details</h3>
+                <p>Exact Cash Fare upon arrival. There are no tickets, no advance payment, no reservations and no debit or credit cards.</p>
+                <div class="details-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="2">Important Information</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="category">Operation Hours</td>
+                                <td>Monday - Saturday: 5:30 AM - 12:30 AM<br>
+                                    Sunday: 7:00 AM - 12:30 AM</td>
+                            </tr>
+                            <tr>
+                                <td class="category">Fares</td>
+                                <td>
+                                    <ul class="fare-list">
+                                        <li>Adults: $2.50 (exact cash only) or $5.00 Round Trip</li>
+                                        <li>Children (6-11): $1.25 or $2.50 Round Trip</li>
+                                        <li>Children 5 and Under: Free</li>
+                                        <li>Seniors (65+ with ID): Free</li>
+                                        <li> UPitt, CMU, Chatham Students: Free with Proper ID</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="category">Contact</td>
+                                <td>
+                                    <address>
+                                        1197 W Carson St, Pittsburgh, PA 15219<br>
+                                        Phone: <a href="tel:+14123811762">(412) 381-1762</a><br>
+                                        Email: <a href="mailto:info@duquesneincline.org">info@duquesneincline.org</a>
+                                    </address>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p>The Duquesne Incline is part of the transportation system in Pittsburgh and therefore uses the same _CASH_ fare system as the buses and trolleys...</p>
+            </div>
+            <div class="highlight-cards">
+                <div class="card">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d43969.239397648846!2d-79.97065294999997!3d40.43710009999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d40.4449562!2d-79.9423624!4m5!1s0x8834f6af9e6ab935%3A0xe871d2bbc2032b83!2sDuquesne%20Incline%2C%201197%20W%20Carson%20St%2C%20Pittsburgh%2C%20PA%2015219!3m2!1d40.439898!2d-80.01761049999999!5e1!3m2!1sen!2sus!4v1743119437580!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <h3>Weather and Locations</h3>
+                    <p>See the stunning collection views at the top of Pittsburgh</p>
+                </div>
+                <div class="card">
+                <section class="weather-widget">
+        
+                    <h2>Current Pittsburgh Weather</h2>
+                    <div class="weather-container">
+                        <div class="weather-icon">
+                            <img id="weather-icon" src="./static/photos/images.jpg" alt="Weather Icon">
+                        </div>
+                        <div class="weather-info">
+                            <div id="temperature">--°F</div>
+                            <div id="conditions">Loading...</div>
+                            <div id="location">Pittsburgh, PA</div>
+                        </div>
+                    </div>
+                    <div class="weather-details">
+                        <div><span>Humidity:</span> <span id="humidity">--%</span></div>
+                        <div><span>Wind:</span> <span id="wind">-- mph</span></div>
+                    </div>
+                </section>
+                </div>  
+            </div>
+        </section>
+    
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Designed by Brian Woo. All rights reserved</p>
+        <ul class="footer-links">
+            <li><a href="https://www.facebook.com/TheDuquesneIncline/photos/">Facebook</a></li>
+            <li><a href="https://www.visitpittsburgh.com/directory/duquesne-incline/">VisitPittsburgh</a></li>
+            <li><a href="../views/mailingList.html">Join Mailing List</a></li>
+        </ul>
+        <ul class="footer-links">
+            <li>
+                <div class="logo">
+                    <a href="https://www.instagram.com/explore/locations/289145085/duquesne-incline-pittsburgh/?hl=en" class="quarter-img-link">
+                        <img src="./static/photos/instagram-logo_1199-122.avif" 
+                             alt="Duquesne Incline Logo" 
+                             class="quarter-sized-img">
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </footer>
+    <script src="../script.js" ></script>
+</body>
+</html>
