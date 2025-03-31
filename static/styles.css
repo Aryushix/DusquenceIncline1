@@ -99,7 +99,7 @@ footer {
 }
 
 * {box-sizing:border-box}
-
+/* w3 schools*/
 .slideshow-container {
   max-width: 1000px;
   position: relative;
@@ -176,8 +176,8 @@ footer {
   from {opacity: .4}
   to {opacity: 1}
 }
+/* w3 schools*/
 
-/* New Mailing List Form Styles */
 .mailing-list-container {
   background-color: white;
   border-radius: 8px;

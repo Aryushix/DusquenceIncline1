@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
           dots[slideIndex - 1].className += " active";
       }
       
-      setTimeout(showSlides, 5000); // Change image every 5 seconds
+      setTimeout(showSlides, 10000); 
   }
   
   window.plusSlides = function(n) {
